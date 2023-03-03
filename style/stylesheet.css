@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Destiny_Keys;
+    src: url(../fonts/Destiny_Keys.otf);
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Oblique.ttf') format('truetype');
+    font-style: oblique;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+}
+
+body, html {
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+p {
+    color: white;
+}
+
+.destiny-key {
+    font-family: Destiny_Keys;
+}
+
+.activity .activity-content .activity-light {
+    color: rgb(255, 241, 43)
+}
+
+.overlay {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+    overflow:hidden;
+    height: 15%;
+    width: 30vw;
+    background-color: rgba(10, 10, 10, 0.596);
+    border: 1px solid #5b5b5b;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.in-activity-title{
+    color: white;
+    font-weight: 800;
+}
+
+.in-activity {
+    margin-top: 5px;
+    display: flex;
+    background-color: rgba(94, 94, 94, 0.562);
+    border: 1px solid #5b5b5b;
+    border-radius: 12px;
+    height: 50px;
+    width: 15em;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.in-activity img {
+    width: 20%;
+}
+.in-activity .in-activity-name {
+    display: right;
+}
+
+.in-activity .display-name {
+    font-weight: 800;
+}
+.in-activity .code {
+    color: rgb(219, 219, 219);
+    font-style: oblique;
+}
+.activity .activity-title {
+    font-weight: 800;
+    font-size: 1.4em;
+}
+
+.overlay .activity-image img {
+    width: 100%;
+    height: 100%;
+}
